@@ -1,0 +1,99 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+/* #dash{
+  background-color: transparent;
+} */
+.main{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* NAVBAR */
+#face{
+  width: 30px;
+  height: 30px;
+  line-height:30px;
+  text-align:center;
+  vertical-align:middle;
+  display:inline-block;
+  font-size: 1.5rem
+}
+.sidenav li{
+  margin:10px;
+}
+.sidenav li a{
+  display: inline;
+  color:white;
+}
+@media (max-width: 476px) {
+  #nav-logo{
+    font-size: 1.2rem;
+  }
+  #siform h4{
+    font-size: 1.1rem;
+  }
+  #s{
+    font-size: .8rem;
+  }
+}
+/* FORM */
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label{
+  color:white!important;
+}
+input-field .prefix.active{color:#26a69a!important;}
+.input-field input[type]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid white !important;
+box-shadow: 0 1px 0 0 white !important;
+}
+textarea.materialize-textarea:focus:not([readonly]){
+  color:white!important;
+}
+textarea.materialize-textarea:focus:not([readonly])+label{
+  color:white!important;
+}
+input{color:white!important}
+label{
+  font-size: 1.2rem!important;
+}
+#s{
+  font-size: 2.2rem;
+  vertical-align: middle;
+}
+
+/* DASHBOARD */
+/* CARDS COUNTER  */
+.card{
+  padding:4px;
+}
+#line1{
+  width:40%;
+}
+#line2{
+  width:20%;
+}
+#line4{
+  width:10%;
+}
+
+
+/* CHART */
+#chartContainer{
+height: 300px; width: 100%;
+}
+
+
+/* CARDS EXP AND EDU */
+.crd-height{
+  height:300px;
+}
+.central-card-marginclass{
+  margin:0.5rem 4% 1rem 0;
+}
+.crd-height h4{
+  font-size: 24px;font-weight: 300;
+}
