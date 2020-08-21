@@ -1,102 +1,113 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Materialize</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="./style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
 
 
 </head>
+
 <body>
   <!-- CANVAS -->
-  <div class="demo" >
- <div class="content">
-    <div id="large-header" class="large-header">
-       <canvas id="demo-canvas"></canvas></div></div></div>
+  <div class="demo">
+    <div class="content">
+      <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas></div>
+    </div>
+  </div>
 
-<!-- MAIN PAGE -->
-<!-- NAVBAR -->
-<div class="main">
-  <nav class="transparent">
-    <a href="#" class="brand-logo center" id="nav-logo"><i class="fas fa-code"></i> Dev Connector</a>
-    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right"><i class="material-icons">menu</i></a>
-  </nav>
+  <!-- MAIN PAGE -->
+  <!-- NAVBAR -->
+  <div class="main">
+    <nav class="transparent">
+      <a href="#" class="brand-logo center" id="nav-logo"><i class="fas fa-code"></i> Dev Connector</a>
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right"><i
+          class="material-icons">menu</i></a>
+    </nav>
 
     <ul id="slide-out" class="sidenav black">
-      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">home</i><a href="#!">Home</a></li>
-      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">person</i><a href="#!">Developers</a></li>
-      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">edit</i><a href="#!">Register</a></li>
+      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">home</i><a
+          href="#!">Home</a></li>
+      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">person</i><a
+          href="#!">Developers</a></li>
+      <li class="collection-item"><i class="material-icons blue white-text circle " id="face">edit</i><a
+          href="#!">Register</a></li>
     </ul>
-<!-- NAVBAR END -->
-<!-- FORM -->
-<div class="center" id="siform">
-     <div class="container">
-       <h2 class="purple-text">Sign Up</h2>
-       <h4 class="white-text"><i class="material-icons" id="s">person</i>Register for your account</h4>
-     </div>
-<form class="" action="index.html" method="post">
-       <div class="row">
-     <div class="col s12 l6 offset-l3">
-       <form class="">
-         <div class="input-field white-text">
-           <input type="text" id="name">
-           <label for="name">Your Name</label>
-         </div>
-         <div class="input-field white-text">
-           <i class="material-icons prefix">email</i>
-           <input type="email" id="email">
-           <label for="email">Your Email</label>
-           <span class="grey-text">This site uses Gravatar so if you want a profile image, use a Gravatar email</span>
-         </div>
-         <div class="input-field white-text">
-           <input type="password" id="pass">
-           <label for="pass">Password</label>
-         </div>
-         <div class="input-field white-text">
-           <input type="password" id="cpass">
-           <label for="cpass">Confirm Password</label>
-         </div>
-         <button class="btn waves-effect waves-light purple darken-2" type="submit" name="action" >Register
-         </button>
-       </form>
-       <span><h6 class="white-text">Already have an account?<a href="#"> Sign In</a></h6></span>
-     </div>
-   </div>
-</form>
-</div>
+    <!-- NAVBAR END -->
+    <!-- FORM -->
+    <div class="center" id="siform">
+      <div class="container">
+        <h2 class="purple-text">Sign Up</h2>
+        <h4 class="white-text"><i class="material-icons" id="s">person</i>Register for your account</h4>
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="row">
+          <div class="col s12 l6 offset-l3">
+            <form class="">
+              <div class="input-field white-text">
+                <input type="text" id="name">
+                <label for="name">Your Name</label>
+              </div>
+              <div class="input-field white-text">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email">
+                <label for="email">Your Email</label>
+                <span class="grey-text">This site uses Gravatar so if you want a profile image, use a Gravatar
+                  email</span>
+              </div>
+              <div class="input-field white-text">
+                <input type="password" id="pass">
+                <label for="pass">Password</label>
+              </div>
+              <div class="input-field white-text">
+                <input type="password" id="cpass">
+                <label for="cpass">Confirm Password</label>
+              </div>
+              <button class="btn waves-effect waves-light purple darken-2" type="submit" name="action">Register
+              </button>
+            </form>
+            <span>
+              <h6 class="white-text">Already have an account?<a href="#"> Sign In</a></h6>
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
 
 
-</div>
+  </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
-<script  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
-<script src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
 
 
-<script>
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-    $('.materialbox').materialbox();
-    $('.tabs').tabs();
-    $('.datepicker').datepicker({
-      disableWeekends:true
-    });
-    $('.tooltipped').tooltip();
-    $('.scrollspy').scrollSpy();
-    $('select').formSelect();
-  })
-</script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.parallax').parallax();
+      $('.materialbox').materialbox();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+      $('select').formSelect();
+    })
+  </script>
 
 
 </body>
+
 </html>
